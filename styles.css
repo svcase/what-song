@@ -50,7 +50,13 @@ h4 {
 }
 
 .footer {
+    display: flex;
+    flex-direction: row;
     padding-top: 12%;
+}
+
+.footer-link {
+    margin-left: 20%;
 }
 
 .private-head {
