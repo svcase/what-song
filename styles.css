@@ -24,51 +24,44 @@ body {
     padding-bottom: 5%;
 }
 
+.logo-img {
+    width: 60%;
+}
+
+.app-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
 .subhead {
     color: #ffffff;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
-}
-
-h3 {
-    color: #ffffff;
-    margin-top: 0;
-    padding-top: 0;
-    font-size: 1.1rem;
-    font-family: "Comic Neue", cursive;
-    font-weight: 700;
-    font-style: italic;
-}
-
-img {
-    width: 40%;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-h4 {
-    color: #ffffff;
-    margin-top: 0;
-    padding-top: 0;
-    font-size: 1.5rem;
-    font-family: "Comic Neue", cursive;
-    font-weight: 700;
+    font-size: 1.25rem;
 }
 
 .subtext {
     color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 15%;
+    padding-top: 10%;
+    font-style: italic;
+}
+
+img {
+    width: 50%;
 }
 
 .footer {
+    position: relative;
+    bottom: 0;
     display: flex;
     flex-direction: row;
-    padding-top: 15%;
-}
-
-.footer-link {
-    margin-left: 20%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    width: 50%;
 }
 
 .private-head {
