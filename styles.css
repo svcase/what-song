@@ -58,6 +58,19 @@ img {
     width: 50%;
 }
 
+.videodemo {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    padding-top: 10%;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%; 
+    box-shadow: 0.6rem 0.6rem 0.6rem 0.063rem rgba(0, 0, 1, 0.3);
+}
+
 .footer {
     position: relative;
     bottom: 0;
